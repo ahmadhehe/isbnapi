@@ -52,7 +52,7 @@ data = ['9781452161037',
 '9780877795308',
 '9780500841150',]
 
-h = {'Authorization': '47375_495e43c6ded767d01baf6de9e83f7044'}
+h = {'Authorization': }
 
 for x in data:
     resp = req.get("https://api2.isbndb.com/book/" + x, headers=h)
